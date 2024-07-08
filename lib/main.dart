@@ -96,9 +96,7 @@ class _MainState extends State<Main> {
           color: const Color.fromRGBO(0, 0, 0, 0.5),
           fontSize: 8,
           fontWeight: FontWeight.w400,
-
         ),
-
       ),
     );
   }

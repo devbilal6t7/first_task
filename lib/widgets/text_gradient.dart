@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class GradientTextWithBorder extends StatelessWidget {
   final String text;
@@ -8,7 +7,7 @@ class GradientTextWithBorder extends StatelessWidget {
   final Color borderColor;
   final double borderWidth;
 
-  GradientTextWithBorder({
+  const GradientTextWithBorder({super.key,
     required this.text,
     required this.style,
     required this.gradient,
